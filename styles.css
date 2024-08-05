@@ -49,6 +49,7 @@ main {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        border-radius: 0.5rem;
     }
 
     section:nth-child(2) {
