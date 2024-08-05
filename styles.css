@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    margin: 1.5rem 5%;
+    background-color: aliceblue;
+}
+
+header > img {
+    display: block;
+    width: 3rem;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0.75rem 0;
+
+    li {
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            transition: all ease-in-out 0.3s;
+        }
+
+        a:hover {
+            color: #f9004d;
+        }
+    }
+}
+
+main {
+
+    h2 {
+        margin-top: 0.5rem;
+
+        span {
+            color: #f9004d;
+        }
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin: 1rem 0;
+    
+        article {
+            background-color: #87CEFA;
+            padding: 1rem;
+            border-radius: 5%;
+            width: 50%;
+    
+            img {
+                width: 100%;
+                border-radius: 5%;
+                margin-top: 0.5rem;
+            }
+    
+            button {
+                padding: 0.7rem;
+                border-radius: 5%;
+                border: none;
+                color: white;
+                background-color: #f9004d;
+                transition: all ease-in-out 0.3s;
+            }
+
+            button:hover {
+                background-color: black;
+            }
+        }
+
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+
+    img {
+        width: 1.5rem;
+    }
+}
+
+@media (max-width: 700px) {
+    nav ul {
+        gap: 0.5rem;
+    }
+
+    main {
+        
+        h2 {
+            text-align: center;
+        }
+
+        section {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            article {
+                width: 100%;
+            }
+        }
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
