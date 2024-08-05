@@ -42,15 +42,16 @@ nav ul {
 
 main {
 
-    h2 {
-        margin-top: 0.5rem;
-
-        span {
-            color: #f9004d;
-        }
+    section:nth-child(1) {
+        color: white;
+        padding: 2rem;
+        background-image: url(hand-3889288_1920.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
-    section {
+    section:nth-child(2) {
         display: flex;
         flex-direction: row;
         gap: 1rem;
@@ -106,7 +107,7 @@ footer {
             text-align: center;
         }
 
-        section {
+        section:nth-child(2) {
             flex-direction: column;
             align-items: center;
             text-align: center;
